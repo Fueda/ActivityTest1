@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onClick(@NonNull View v) {
+        Log.d(TAG, "onClick");
         switch (v.getId()) {
         case R.id.ok_button:
             String name = nameInput.getText().toString().trim();
@@ -40,7 +41,6 @@ public class MainActivity extends AppCompatActivity
             }
             break;
         }
-
     }
 
     @Override

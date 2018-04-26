@@ -52,5 +52,4 @@ public class AnswerActivity extends AppCompatActivity {
         super.onDestroy();
         Log.d(TAG, "onDestroy");
     }
-
 }
