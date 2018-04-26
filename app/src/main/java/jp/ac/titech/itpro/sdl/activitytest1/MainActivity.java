@@ -1,6 +1,7 @@
 package jp.ac.titech.itpro.sdl.activitytest1;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public void onClick(View v) {
+    public void onClick(@NonNull View v) {
         switch (v.getId()) {
         case R.id.ok_button:
             String name = nameInput.getText().toString().trim();
